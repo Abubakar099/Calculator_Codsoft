@@ -1,0 +1,82 @@
+/* css boiler plate */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: bisque;
+    color: red;
+    padding: 20px;
+}
+
+.btn {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 10px 20px;
+    margin:5px;
+    border:2px solid rgb(0, 0, 0);
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8; 
+    background-color: rgb(205, 120, 222);
+    color:white;
+  
+}
+
+.container {
+    height:100%; 
+    background-color: rgb(135, 86, 180);
+    border: 6px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 5px 0px;
+    padding: 10px ;
+    /* border:2px solid black; */
+}
+
+input {
+    margin: 12px;
+    width: 22.5%;
+    height: 39px; 
+    padding: 10px;      
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    input {
+        width: 100%; 
+    }
+}
+
+
